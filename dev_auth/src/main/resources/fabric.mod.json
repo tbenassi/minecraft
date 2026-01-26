@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "devauth",
+  "version": "${version}",
+  "name": "Dev Auth",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/devauth/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "github.tbenassi.devauth.DevAuth"
+    ]
+  },
+  "mixins": [
+    "devauth.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "~${minecraft_version}"
+  }
+}
