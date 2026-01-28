@@ -3,13 +3,12 @@
 	"id": "hot-deposit",
 	"version": "${version}",
 	"name": "Hot Deposit",
-	"description": "A mod that allows you to deposit items into a chest by pressing a key.",
+	"description": "Quickly deposit inventory items into nearby marked containers with a single keybind (N key). Supports chests, barrels, shulker boxes, and minecart chests.",
 	"authors": [
 		"tbenassi"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"email": "tjbenassi@gmail.com"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/hot-deposit/icon.png",
@@ -28,7 +27,5 @@
 		"fabric-api": "*",
 		"java": ">=21"
 	},
-	"suggests": {
-		"another-mod": "*"
-	}
+	"suggests": {}
 }
