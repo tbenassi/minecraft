@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.tbenassi.com.hotdeposit.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "ClientPlayerInteractionManagerMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "ClientWorldMixin",
+    "HandledScreenAccessor",
+    "MountScreenAccessor",
+    "KeyboardMixin",
+    "MinecraftClientMixin",
+    "MinecraftServerAccessor"
+  ]
+}

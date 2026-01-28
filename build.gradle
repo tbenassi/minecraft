@@ -1,0 +1,17 @@
+// Root build file for multi-module Minecraft mods project
+// Individual mods are included via settings.gradle as composite builds
+
+plugins {
+    id 'base'
+}
+
+// Convenience task to build all mods
+tasks.register('buildAll') {
+    group = 'build'
+    description = 'Builds all included mods'
+
+    // Depend on each included build's build task
+    gradle.includedBuilds.each { build ->
+        dependsOn gradle.includedBuild(build.name).task(':build')
+    }
+}
