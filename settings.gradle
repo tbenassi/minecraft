@@ -1,15 +1,13 @@
-rootProject.name = 'minecraft-mods'
-
 // Only include mods that exist on this branch
 if (file('hot_deposit').exists()) {
     includeBuild 'hot_deposit'
-}
-if (file('true_infinity').exists()) {
-    includeBuild 'true_infinity'
 }
 if (file('dev_auth').exists()) {
     includeBuild 'dev_auth'
 }
 if (file('craft_from_nearby_storage').exists()) {
     includeBuild 'craft_from_nearby_storage'
+}
+if (file('endless_quiver').exists()) {
+    includeBuild 'endless_quiver'
 }

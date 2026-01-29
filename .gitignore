@@ -53,3 +53,6 @@ source_code/
 
 # tool binaries (downloaded by scripts)
 .tools/
+
+**/.mod_inspiration
+**/.mod_inspiration/*

@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "tbenassi.trueinfinity.mixin",
+	"package": "io.github.tbenassi.endlessquiver.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"BowItemMixin"
+		"PlayerEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
