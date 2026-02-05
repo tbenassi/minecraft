@@ -8,6 +8,3 @@ if (file('dev_auth').exists()) {
 if (file('craft_from_nearby_storage').exists()) {
     includeBuild 'craft_from_nearby_storage'
 }
-if (file('endless_quiver').exists()) {
-    includeBuild 'endless_quiver'
-}

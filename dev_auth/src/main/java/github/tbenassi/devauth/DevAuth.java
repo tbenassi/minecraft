@@ -101,7 +101,7 @@ public class DevAuth implements ClientModInitializer {
                     SystemToast.add(
                             // get the minecraft client
                             MinecraftClient.getInstance().getToastManager(), SystemToast.Type.PERIODIC_NOTIFICATION,
-                            Text.translatable("gui.authme.toast.greeting", Text.literal(session.getUsername())), null
+                            Text.translatable("gui.devauth.toast.greeting", Text.literal(session.getUsername())), null
                     );
 
                     // Mark the task as successful, in turn closing the screen
