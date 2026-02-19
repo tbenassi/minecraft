@@ -8,3 +8,6 @@ if (file('dev_auth').exists()) {
 if (file('craft_from_nearby_storage').exists()) {
     includeBuild 'craft_from_nearby_storage'
 }
+if (file('chunk_loader').exists()) {
+    includeBuild 'chunk_loader'
+}

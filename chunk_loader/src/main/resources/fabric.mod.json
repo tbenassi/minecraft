@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "chunk-loader",
+	"version": "${version}",
+	"name": "Chunk Loader",
+	"description": "Keep selected chunks loaded while players are online. Server-side only.",
+	"authors": [
+		"tbenassi"
+	],
+	"contact": {
+		"email": "tjbenassi@gmail.com"
+	},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.tbenassi.com.chunkloader.ChunkLoaderMod"
+		]
+	},
+	"depends": {
+		"minecraft": ">=1.21.11",
+		"fabricloader": ">=0.18.4",
+		"fabric-api": "*",
+		"java": ">=21"
+	}
+}
